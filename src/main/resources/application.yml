@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: country-service-feign
+
+server:
+  port: 9191
+
+# add all other microservice hostname here to get decoratively called by feign.
+ribbon:
+  listOfServers: https://restcountries.eu/
